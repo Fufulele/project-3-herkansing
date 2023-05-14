@@ -1,0 +1,108 @@
+.bg-img {
+    /* The image used */
+    background-image: url("fixedBuilding.png");
+
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .BetaPic {
+    display: flex;
+  }
+
+/* inlog css */ 
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body{
+    background-color: #333; 
+    background-size: cover;
+  }
+  
+  .inlogform{
+    width: 350px;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+  }
+  
+  .inlogform h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+  }
+  
+  .inlogform p{
+    font-size: 20px;
+    margin: 15px 0;
+  }
+  
+  .inlogform input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .inlogform button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+  }
+  
+  .wwvergeten{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .aanmelden{
+    color: white;
+    text-decoration: none;
+  }

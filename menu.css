@@ -1,0 +1,205 @@
+.bg-img {
+    /* The image used */
+    background-image: url("fixedBuilding.png");
+
+  
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .BetaPic {
+    display: flex;
+  }
+
+
+
+  /*----Image slider--*/ 
+
+.tekst {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  
+}
+.monitoren {
+  border-style: solid;
+  display: flex;
+  justify-content: space-around;
+  border-color: white;
+  background-color: white;
+
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+}
+
+/*-----Button--*/
+
+.buttons { 
+
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around;
+  padding: 6px 14px; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif; 
+  border-radius: 6px; 
+  border: none;
+  background: #6E6D70; 
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12); 
+  color: #DFDEDF; 
+  user-select: none; 
+  -webkit-user-select: none; 
+  touch-action: manipulation; 
+
+} 
+
+  
+
+.buttons:focus { 
+
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5); 
+  outline: 0; 
+
+} 
+
+/*---Footer--*/
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  display: block;
+}
+
+
+/*------info---*/
+
+.Betul {
+  border-style: solid;
+  border-color: white;
+  background-color: red;
+  display: block;
+  justify-content: center;
+  text-align: left;
+  border-right-width: 510px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.emre {
+  border-style: solid;
+  border-color: white;
+  background-color: gray;
+  display: block;
+  justify-content: center;
+  text-align: left;
+  border-right-width: 510px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.Tuncay {
+  border-style: solid;
+  border-color: white;
+  background-color: red;
+  display: block;
+  justify-content: center;
+  text-align: left;
+  border-right-width: 510px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.Azad {
+  border-style: solid;
+  border-color: white;
+  background-color: gray;
+  display: block;
+  justify-content: center;
+  text-align: left;
+  border-right-width: 510px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.tekstform {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style: solid;
+  border-right-width: 450px;
+  border-left-width: 450px;
+  background-color: black;
+  border-color: white;
+  color: white;
+  
+}
+
+.history {
+  display: flex;
+  border-style: solid;
+  justify-content: center;
+  float: center;
+  text-align: center;
+  border-color: white;
+  border-right-width: 100px;
+  border-left-width: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.Title {
+  border-style: solid;
+  border-color: white;
+  background-color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  
+}
+
